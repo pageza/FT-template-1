@@ -1,0 +1,14 @@
+{
+  "name": "VEgaN Stack",
+  "image": "node:16",
+  "extensions": [
+    "dbaeumer.vscode-eslint",
+    "esbenp.prettier-vscode",
+    "octref.vetur"
+  ],
+  "settings": {
+    "terminal.integrated.shell.linux": "/bin/bash"
+  },
+  "forwardPorts": [3000],
+  "postCreateCommand": "npm install -g vue@latest && npm install -g @vue/cli@latest && npm install -g express-generator@latest"
+}

@@ -1,6 +1,8 @@
 {
   "name": "VEgaN Stack",
   "image": "node:16",
+  "remoteUser": "node",
+  "workspaceFolder": "/workspace",
   "extensions": [
     "dbaeumer.vscode-eslint",
     "esbenp.prettier-vscode",
